@@ -1,16 +1,20 @@
-## Hi there 👋
+## Hi there 👋 I'm Adonay Merkonnen
 
-<!--
-**Merkonnen1/Merkonnen1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a Computer Science student at Royal Holloway, University of London, passionate about building full-stack applications and exploring cloud engineering and AI.
 
-Here are some ideas to get you started:
+### 🚀 What I'm Up To
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+*   🤖 Building a Courtroom Debate Analyzer with TensorFlow
+*   💻 Enhancing my Internship Tracker with AWS S3 file storage
+*   🌐 **Check out my portfolio:** [Live Internship Tracker](https://internshiptracker-dae4115676ce.herokuapp.com/login)
+
+### 🌐 Connect with me:
+
+*   **LinkedIn:** [linkedin.com/in/adonay-merkonnen](https://www.linkedin.com/in/adonay-merkonnen)
+
+### 💻 Tech Stack:
+
+*   **Languages:** Java, Python, JavaScript, SQL, HTML/CSS
+*   **Frameworks & Libraries:** Spring Boot, React, TensorFlow, Node.js
+*   **Databases & Cloud:** PostgreSQL, AWS S3, Heroku
+*   **Tools:** Git, Docker, IntelliJ
