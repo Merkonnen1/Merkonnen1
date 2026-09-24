@@ -72,16 +72,14 @@
     background: var(--teal); border-radius: 50%;
   }
 
-  /* Featured certificate */
-  .award {
-    display: flex; gap: 3.5mm; align-items: flex-start;
-    background: #fff8e6; border: 1px solid #f1d58f; border-left: 4px solid var(--gold);
-    border-radius: 2mm; padding: 3mm 3.5mm; margin-bottom: 1mm;
-  }
-  .award svg { flex: none; width: 9mm; height: 9mm; margin-top: .5mm; }
-  .award .a-title { font-weight: 900; color: var(--ink); font-size: 10pt; line-height: 1.3; }
-  .award .a-meta { color: var(--muted); font-size: 8.8pt; margin-top: .6mm; }
-  .award .a-note { font-size: 8.8pt; margin-top: 1mm; }
+  /* Qualifications */
+  .qual { display: flex; gap: 3mm; align-items: flex-start; border-left: 3px solid var(--teal); padding: 1.6mm 0 1.6mm 3mm; margin-bottom: 1.8mm; }
+  .qual.key { background: #fff8e6; border: 1px solid #f1d58f; border-left: 4px solid var(--gold); border-radius: 2mm; padding: 2.6mm 3mm; }
+  .qual svg { flex: none; width: 8.5mm; height: 8.5mm; }
+  .q-body { flex: 1; }
+  .q-head { display: flex; justify-content: space-between; align-items: baseline; gap: 3mm; }
+  .q-title { font-weight: 900; font-size: 9.8pt; line-height: 1.3; }
+  .q-meta { color: var(--muted); font-size: 8.7pt; margin-top: .4mm; }
 
   /* Sidebar */
   .skill-group { margin-bottom: 2.8mm; }
@@ -104,7 +102,7 @@
 <div class="page">
   <header>
     <h1>TSEGEREDA GHEBRESELASSEA</h1>
-    <div class="title">Teaching Assistant &nbsp;|&nbsp; Autism &amp; ADHD Trained &nbsp;|&nbsp; Multilingual Pupil Support</div>
+    <div class="title">Level 3 Qualified Teaching Assistant &nbsp;|&nbsp; Autism, ADHD &amp; Dyslexia Trained</div>
     <div class="contact">
       <span><b>Tel</b>07984 164258</span>
       <span><b>Email</b>tsegb@yahoo.com</span>
@@ -117,26 +115,35 @@
     <main>
       <h2>Personal Profile</h2>
       <p class="summary">
-        Caring, patient and <strong>multilingual Teaching Assistant</strong> with classroom experience supporting pupils'
-        learning, confidence and English language development. Recently certified in <strong>Understanding Autism
-        and ADHD (July 2026)</strong>, bringing practical strategies to support neurodivergent learners and create
-        calm, inclusive classrooms. Skilled at building trusting relationships with pupils, parents and staff, with
-        a proven coaching track record (client satisfaction up <strong>20%+</strong>). Committed to helping every child
-        feel safe, valued and able to succeed.
+        Caring, patient and multilingual Teaching Assistant holding the <strong>NCFE CACHE Level 3 Diploma in Specialist
+        Support for Teaching and Learning in Schools</strong>, with classroom experience supporting pupils' learning,
+        confidence and English language development. Trained in <strong>Understanding Autism and ADHD (2026)</strong> and
+        <strong>Dyslexia Awareness</strong>, bringing practical strategies to create calm, inclusive classrooms. Builds trusting relationships with pupils, parents and staff, and is
+        committed to helping every child feel safe, valued and able to succeed.
       </p>
 
-      <h2>Recent Professional Development</h2>
-      <div class="award">
+      <h2>Teaching Qualifications</h2>
+      <div class="qual key">
         <svg viewBox="0 0 24 24" aria-hidden="true">
           <circle cx="12" cy="9" r="6.5" fill="#f4b740" stroke="#c98a0b" stroke-width="1.2"/>
           <path d="M8.5 14.5 7 22l5-2.6 5 2.6-1.5-7.5" fill="#1f3a6e"/>
           <path d="m9.4 9 1.8 1.8 3.6-3.6" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
-        <div>
-          <div class="a-title">Certificate of Achievement – Understanding Autism and ADHD</div>
-          <div class="a-meta">Psycare Professionals UK &nbsp;·&nbsp; July 2026</div>
-          <div class="a-note">Awarded in recognition of successfully completing the programme, gaining practical
-            strategies to support neurodivergent pupils' focus, communication and wellbeing.</div>
+        <div class="q-body">
+          <div class="q-head"><span class="q-title">Level 3 Diploma in Specialist Support for Teaching and Learning in Schools</span><span class="dates">2018</span></div>
+          <div class="q-meta">NCFE CACHE</div>
+        </div>
+      </div>
+      <div class="qual">
+        <div class="q-body">
+          <div class="q-head"><span class="q-title">Certificate of Achievement – Understanding Autism and ADHD</span><span class="dates">July 2026</span></div>
+          <div class="q-meta">Psycare Professionals UK · awarded for successful completion of the programme</div>
+        </div>
+      </div>
+      <div class="qual">
+        <div class="q-body">
+          <div class="q-head"><span class="q-title">Level 1 Award in Dyslexia Awareness</span><span class="dates">2019</span></div>
+          <div class="q-meta">Gateway Qualifications · Hammersmith &amp; Fulham Adult Learning and Skills Service</div>
         </div>
       </div>
 
@@ -158,7 +165,6 @@
         <ul>
           <li>Gave one-to-one coaching and motivation, adapting my approach to each person's needs and goals.</li>
           <li>Built lasting relationships through regular, clear communication, raising client satisfaction by <strong>20%+</strong>.</li>
-          <li>Promoted healthy eating and wellbeing: knowledge I bring to supporting pupils' health and routines.</li>
         </ul>
       </div>
 
@@ -167,7 +173,6 @@
         <div class="org">Oxfam Charity Shop</div>
         <ul>
           <li>Delivered friendly, reliable service to a diverse community and handled the till accurately.</li>
-          <li>Sorted, organised and displayed donated stock, keeping the shop tidy, welcoming and well-run.</li>
         </ul>
       </div>
     </main>
@@ -180,7 +185,7 @@
       </div>
       <div class="skill-group">
         <h3>Inclusion &amp; SEND</h3>
-        <div class="tags"><span>Autism awareness</span><span>ADHD strategies</span><span>EAL support</span><span>Positive behaviour</span></div>
+        <div class="tags"><span>Autism awareness</span><span>Dyslexia awareness</span><span>ADHD strategies</span><span>EAL support</span><span>Positive behaviour</span></div>
       </div>
       <div class="skill-group">
         <h3>Communication</h3>
@@ -191,9 +196,8 @@
         <div class="tags"><span>Pupil wellbeing</span><span>Nutrition knowledge</span><span>Record-keeping</span><span>IT skills</span></div>
       </div>
 
-      <h2>Certificates</h2>
+      <h2>Other Certificates</h2>
       <ul class="certs">
-        <li class="new">Understanding Autism and ADHD<small>Psycare Professionals UK · July 2026</small></li>
         <li>ITQ Level 1 for IT Users</li>
         <li>BTEC Level 1 Award in Photography</li>
         <li>Certificate of Brean Health Elective</li>
